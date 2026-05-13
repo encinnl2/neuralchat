@@ -1,0 +1,53 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1024" height="1024" rx="220" fill="#080C14"/>
+
+  <!-- Gradient defs -->
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0EA5E9" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#080C14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="star" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7DF9D0"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="bubble" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Glow -->
+  <circle cx="512" cy="512" r="400" fill="url(#glow)"/>
+
+  <!-- Chat bubble background -->
+  <rect x="180" y="260" width="580" height="380" rx="60" fill="url(#bubble)" opacity="0.15"/>
+  <rect x="180" y="260" width="580" height="380" rx="60" stroke="#0EA5E9" stroke-width="3" opacity="0.4"/>
+
+  <!-- Chat lines -->
+  <rect x="240" y="360" width="280" height="28" rx="14" fill="#7DF9D0" opacity="0.8"/>
+  <rect x="240" y="412" width="200" height="28" rx="14" fill="#E2EAF0" opacity="0.4"/>
+  <rect x="240" y="464" width="240" height="28" rx="14" fill="#E2EAF0" opacity="0.4"/>
+
+  <!-- AI response bubble (right aligned) -->
+  <rect x="440" y="516" width="240" height="60" rx="30" fill="#1A2535"/>
+  <rect x="440" y="516" width="240" height="60" rx="30" stroke="#2A3F55" stroke-width="2"/>
+  <!-- dots in response -->
+  <circle cx="500" cy="546" r="8" fill="#7DF9D0"/>
+  <circle cx="530" cy="546" r="8" fill="#7DF9D0" opacity="0.6"/>
+  <circle cx="560" cy="546" r="8" fill="#7DF9D0" opacity="0.3"/>
+
+  <!-- Star/sparkle icon center top -->
+  <path d="M512 160 L530 210 L580 212 L542 244 L556 294 L512 265 L468 294 L482 244 L444 212 L494 210 Z"
+    fill="url(#star)" opacity="0.95"/>
+
+  <!-- Small decorative dots -->
+  <circle cx="760" cy="300" r="10" fill="#7DF9D0" opacity="0.5"/>
+  <circle cx="790" cy="330" r="6" fill="#0EA5E9" opacity="0.4"/>
+  <circle cx="240" cy="700" r="8" fill="#7DF9D0" opacity="0.4"/>
+  <circle cx="270" cy="720" r="5" fill="#0EA5E9" opacity="0.3"/>
+
+  <!-- Bottom tail of chat bubble -->
+  <path d="M260 640 L220 700 L310 660 Z" fill="#0EA5E9" opacity="0.15"/>
+</svg>
